@@ -1,0 +1,4 @@
+- name: copy go_tgz to client
+  copy: src=/etc/ansible/roles/go_install/files/go1.17.1.linux-amd64.tar.gz dest=/usr/local/src/
+- name: copy install_go_script to client
+  copy: src=/etc/ansible/roles/go_install/templates/go_install.sh dest=/tmp/go_install.sh owner=root group=root mode=755
