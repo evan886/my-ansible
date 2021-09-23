@@ -1,0 +1,4 @@
+- name: copy python_tgz to client
+  copy: src=/etc/ansible/roles/python_install/files/Python-3.7.12.tar.xz dest=/usr/local/src/
+- name: copy install_python_script to client
+  copy: src=/etc/ansible/roles/python_install/templates/python_install.sh dest=/tmp/python_install.sh owner=root group=root mode=755

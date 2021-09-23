@@ -1,0 +1,21 @@
+把这些文件放到你的
+/etc/ansible
+
+ tree /etc/ansible/
+/etc/ansible/
+├── ansible.cfg
+├── hosts
+├── python.yml
+└── roles
+    └── python_install
+        ├── files
+        │   └── Python-3.7.12.tar.xz
+        ├── tasks
+        │   ├── copy.yml
+        │   ├── install.yml
+        │   └── main.yml
+        └── templates
+            └── python_install.sh
+
+5 directories, 8 files
+
