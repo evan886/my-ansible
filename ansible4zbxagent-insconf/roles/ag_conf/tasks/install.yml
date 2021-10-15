@@ -1,0 +1,3 @@
+- name: install conig  zbx agent 
+  shell: /bin/bash /tmp/age_install.sh
+

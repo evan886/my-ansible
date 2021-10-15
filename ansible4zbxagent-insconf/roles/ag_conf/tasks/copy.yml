@@ -1,0 +1,3 @@
+- name: copy install__script to client
+  copy: src=/etc/ansible/roles/ag_conf/templates/age_install.sh dest=/tmp/age_install.sh owner=root group=root mode=755
+
