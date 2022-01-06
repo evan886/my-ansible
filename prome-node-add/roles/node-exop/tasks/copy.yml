@@ -1,0 +1,3 @@
+- name: copy install__script to client
+  copy: src=/etc/ansible/roles/node-expo/templates/node_install.sh dest=/tmp/node_install.sh owner=root group=root mode=755
+

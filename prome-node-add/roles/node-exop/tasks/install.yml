@@ -1,0 +1,2 @@
+- name: install conig  prome node-exporter 
+  shell: /bin/bash /tmp/node_install.sh
