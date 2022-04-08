@@ -1,10 +1,13 @@
 ---
-- hosts: live
+- hosts: intra
 #- hosts: all
 #- hosts: 172.16.0.14
   become: yes
   become_method: sudo
   remote_user: evan
+  #roles:
+  #  - node-expo
+
   roles:
     - node-expo
 
