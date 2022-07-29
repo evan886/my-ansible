@@ -1,0 +1,2 @@
+- name: copy install_script to client
+  copy: src=/etc/ansible/roles/insk8s/templates/insk8s.sh dest=/tmp/insk8s.sh owner=root group=root mode=755

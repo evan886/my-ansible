@@ -1,0 +1,2 @@
+- name: install   k8s
+  shell:  /bin/bash /tmp/insk8s.sh
