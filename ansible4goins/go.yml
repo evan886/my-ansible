@@ -1,5 +1,6 @@
 ---
-- hosts: all
+- name: Installing Go from source
+  hosts: a
   remote_user: root
   roles:
     - go_install
